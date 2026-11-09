@@ -165,6 +165,7 @@ dsh plugin --profile web add dshmarket
 - [13520rygvv/dsh-restart-button](https://github.com/13520rygvv/dsh-restart-button) — 从三处重启 DeepSeek Harness 桌面端：设置里的按钮、账号菜单「退出登录」上方的一项、以及可自定义的快捷键；有运行中的任务时会先确认；若新版本更新已下载并等待安装，重启时会先静默安装更新。仅支持 Windows 桌面版。
 - [1420079678-ctrl/agent-body#dsh-anatomy-panel](https://github.com/1420079678-ctrl/agent-body/tree/main/workspace/plugins/dsh-anatomy-panel) — Agent-Body 器官的解剖面板：在 harness 内部的 /anatomy 提供实时体征看板——器官、心跳、自愈账本、自训练计数与真实脉冲流，数据直接读自运行时文件而非誊写。仅 host 端，无客户端 bundle、无构建步骤。
 - [1497105876/dsh-text-inject](https://github.com/1497105876/dsh-text-inject) — 在 DSH 设置页左侧栏新增「文字注入」分区：独立 Markdown 文件中的文字块可注入系统提示词（每轮生效）或会话上下文（关键词门控、去重），支持热加载与自动历史备份。
+- [1578361862-art/dsh-plugin-sidebar-manager](https://github.com/1578361862-art/dsh-plugin-sidebar-manager) — 管理 DSH 侧栏的插件面板行：隐藏不用的、上下调序、分组成可展开收起的命名文件夹，选择存在 profile 里并在每次启动时回放。
 - [1700563146/dsh-plugin-rightbar-divider](https://github.com/1700563146/dsh-plugin-rightbar-divider) — 修复整页缩放后右侧栏拖拽手柄偏移、分割线拖不动的问题，把命中区加宽到 12px 并显示悬停提示线。
 - [1700563146/dsh-plugin-ui-zoom](https://github.com/1700563146/dsh-plugin-ui-zoom) — DSH Web 界面整体缩放（70%–160%），可用 Ctrl+滚轮、DSH 快捷键中心或输入框旁的胶囊操作，带正文栏宽度补偿，缩小后是一行更多字而不是一条更窄的栏。
 - [1834395550/dsh-session-tabs](https://github.com/1834395550/dsh-session-tabs) — 给 DSH Web GUI 的浏览器式顶部会话标签栏：窗口顶部一条整宽标签，一个标签对应一个会话，会话按工作区收在可折叠的方框里，只有真正打开过的会话才会成为标签。
@@ -7791,6 +7792,7 @@ dsh plugin --profile web add dshmarket
 ### 🔀 Git 与代码评审
 
 - [135ty/dsh-git-commit-panel](https://github.com/135ty/dsh-git-commit-panel) — DSH 网页界面的悬浮提交面板：当前对话所在工作区出现未暂存或未跟踪改动时浮出，提交信息可手写或由 AI 起草（AI 起草按 Conventional Commit 生成），支持提交与提交并推送。仅支持 DSH Web / CLI，桌面版无法安装。
+- [1578361862-art/dsh-plugin-github-radar](https://github.com/1578361862-art/dsh-plugin-github-radar) — DSH 面板里的 GitHub 趋势榜：按语言看今日/本周/本月榜单，本地收藏，面板内读 README 并可机翻，一键浅克隆到代码目录。
 - [7dgroup-ai/dsh-skill-7d-git-commit](https://github.com/7dgroup-ai/dsh-skill-7d-git-commit) — 提交前按 7DGroup 规范校验 git commit message（中文类型标签、长度与标点规则），作为 GitLab pre-receive 钩子的客户端前置校验。
 - [9087/dsh-diff-approval](https://github.com/9087/dsh-diff-approval) — DeepSeek Harness 的待处理改动审查：每次 edit/write/str_replace_editor 改动都会自动汇总到文件列表，可对单个差异块、选区内的多块或整个文件执行保留/回退，支持撤销重做。还能导入工作区的版本控制改动，以单栏或左右对照视图展示差异，并提供亦能保留/回退差异的 Markdown 预览、文件内搜索、差异块跳转与可复制的行号引用；差异数据持久化存储，重启后可继续审查。
 - [988hj7tczd-oss/harness-github](https://github.com/988hj7tczd-oss/harness-github) — DSH GitHub 连接器:检查 PR、分诊 issue、调试 CI、准备代码变更(18 个工具,gh 优先 + REST 回退,写操作人工审批)。

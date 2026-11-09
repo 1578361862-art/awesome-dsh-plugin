@@ -1,0 +1,7 @@
+url: https://github.com/1578361862-art/dsh-plugin-sidebar-manager
+name: 1578361862-art/dsh-plugin-sidebar-manager
+category: ui
+description:
+  en: 'Plugin panel rows in the DSH sidebar: hide the ones you do not use, reorder them, and group them into named folders that expand and collapse. The choice is stored in the profile and replayed on every start.'
+  zh: '管理 DSH 侧栏的插件面板行：隐藏不用的、上下调序、分组成可展开收起的命名文件夹，选择存在 profile 里并在每次启动时回放。'
+tarball: https://github.com/1578361862-art/dsh-plugin-sidebar-manager/releases/latest/download/dsh-plugin-sidebar-manager.tgz

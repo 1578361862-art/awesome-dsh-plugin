@@ -1,0 +1,7 @@
+url: https://github.com/1578361862-art/dsh-plugin-github-radar
+name: 1578361862-art/dsh-plugin-github-radar
+category: git
+description:
+  en: 'A GitHub trending board inside DSH: browse daily, weekly and monthly repos by language, save favorites locally, read a README in the panel with optional machine translation, and shallow-clone a repo into your code directory.'
+  zh: 'DSH 面板里的 GitHub 趋势榜：按语言看今日/本周/本月榜单，本地收藏，面板内读 README 并可机翻，一键浅克隆到代码目录。'
+tarball: https://github.com/1578361862-art/dsh-plugin-github-radar/releases/latest/download/dsh-plugin-github-radar.tgz
